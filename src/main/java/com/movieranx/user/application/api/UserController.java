@@ -221,7 +221,7 @@ public class UserController {
     }
 
     @CrossOrigin("*")
-    @GetMapping("/findbycpf")
+    @GetMapping("/findbyusername")
     public ResponseEntity<?> findPersonByUsername(@PathVariable String username){
         log.info("Finding user by username...");
 
